@@ -1,0 +1,109 @@
+/* Css resets */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(../images/01/background.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
+/* Colors */
+.color-orange {
+  color: orangered;
+}
+
+.color-green {
+  color: green;
+}
+
+/* Common properties */
+/* h1,
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+} */
+
+.title {
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper-80 {
+  width: 80%;
+  /* margin: 0 auto; */
+  background-color: rgba(255, 255, 255, 0.3);
+  min-height: 100vh;
+}
+
+/* Bidejki se povtrouva na poveke mesta */
+.margin-auto {
+  margin: 0 auto;
+}
+
+.border-green {
+  border: 1px solid green;
+}
+
+/* ____________________________________________________ */
+nav img {
+  width: 100px;
+}
+
+.border-bottom-contact {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+/* .border-bottom {
+    border-bottom: 1px solid black;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+} */
+
+form {
+  width: 50%;
+  /* margin: 0 auto; */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  /* border: 1px solid green; */
+}
+
+form button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  /* border: 1px solid green; */
+  border-radius: 3px;
+  /* margin: 0 auto; */
+  display: block;
+}
